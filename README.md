@@ -56,6 +56,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
+pod 'AHAlertView', :git => 'https://github.com/AnsonHui/AHAlertView.git'
 pod 'AHAlertView'
 ```
 
