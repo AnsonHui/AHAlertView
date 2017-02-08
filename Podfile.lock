@@ -1,0 +1,12 @@
+PODS:
+  - AHAutoLayout-Swift (1.0.0)
+
+DEPENDENCIES:
+  - AHAutoLayout-Swift (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  AHAutoLayout-Swift: 467af3a9aac77e61d8b7e0b07d1fd50d082a32db
+
+PODFILE CHECKSUM: 111245067907a585912287d1a5baa0d4bcf5cd64
+
+COCOAPODS: 1.1.1

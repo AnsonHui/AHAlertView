@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108D3EF2494ACCE377B6F5A24353984C /* Pods-AHAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE49CF2D18B692A8CC51613C352AEF31 /* Pods-AHAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1748AB72B447DD496C06BFA6B21802E7 /* AHAutoLayout-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0558B9847B056B44DFB77516DC472E /* AHAutoLayout-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A690F745A54111E0BB612A6A338253E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		88040DFFEFE535B52A44F5652D503D42 /* AHAutoLayout-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E006F9805DE74A6F9E6327ADD31625EA /* AHAutoLayout-Swift-dummy.m */; };
+		A8B002215CC6F3C03F67F7863AB5E325 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		B2CE53A934F1C3911F51500067AFF79E /* AHAutoLayoutDSL-Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF16210355D41C8DBEE5AEB9D6A0676C /* AHAutoLayoutDSL-Swift.swift */; };
+		E16553EACF67EC4826FA37FF09273AB7 /* Pods-AHAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40454FE0289052955F2E3FA03EE96926 /* Pods-AHAlertView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E70E4360AA4E50AED0E48DEDEF000C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49AFB6C2233735F3E72131CA2AAF952C;
+			remoteInfo = "AHAutoLayout-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		168E7C795087B286A88CD87F879A6D44 /* Pods-AHAlertView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHAlertView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2677B8B26C7EA58A74BCF596CBE8638E /* AHAutoLayout-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHAutoLayout-Swift-prefix.pch"; sourceTree = "<group>"; };
+		3ADB963DE8ABC607863A45AEEDDB3000 /* Pods-AHAlertView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHAlertView-frameworks.sh"; sourceTree = "<group>"; };
+		40454FE0289052955F2E3FA03EE96926 /* Pods-AHAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHAlertView-dummy.m"; sourceTree = "<group>"; };
+		4C0558B9847B056B44DFB77516DC472E /* AHAutoLayout-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHAutoLayout-Swift-umbrella.h"; sourceTree = "<group>"; };
+		64CD28EAF52349FFB42DAACC595C1EE3 /* AHAutoLayout-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AHAutoLayout-Swift.xcconfig"; sourceTree = "<group>"; };
+		725C0002F048F9BB9F832EDFF560EC42 /* Pods-AHAlertView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHAlertView-acknowledgements.plist"; sourceTree = "<group>"; };
+		81701C5ACE0D0426D4842FE613032C44 /* Pods-AHAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AHAlertView.modulemap"; sourceTree = "<group>"; };
+		8803EE076DD44A1EB857734B59BF4B96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94563236729BCDFC4CF6CFB138AE17B3 /* Pods-AHAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+		B6472D8170E2CE5B479F0C9C153DDF90 /* AHAutoLayout_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AHAutoLayout_Swift.framework; path = "AHAutoLayout-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE49CF2D18B692A8CC51613C352AEF31 /* Pods-AHAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHAlertView-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF3C37C2F2C6D5CD6FC1553605F382AE /* Pods_AHAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AHAlertView.framework; path = "Pods-AHAlertView.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D328BFA984CD4C8F78243BE0848AA083 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF57D3313E066EB53DF038B4775B041D /* Pods-AHAlertView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHAlertView-resources.sh"; sourceTree = "<group>"; };
+		E006F9805DE74A6F9E6327ADD31625EA /* AHAutoLayout-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHAutoLayout-Swift-dummy.m"; sourceTree = "<group>"; };
+		EF16210355D41C8DBEE5AEB9D6A0676C /* AHAutoLayoutDSL-Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AHAutoLayoutDSL-Swift.swift"; path = "Source/AHAutoLayoutDSL-Swift.swift"; sourceTree = "<group>"; };
+		F2EF1F1D1109B9FCC196A5F23682F647 /* AHAutoLayout-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "AHAutoLayout-Swift.modulemap"; sourceTree = "<group>"; };
+		F6423681D8AEF730221F662E35E4ACC6 /* Pods-AHAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHAlertView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FC66CB4D9A77C95C85F0BF9785D3E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B002215CC6F3C03F67F7863AB5E325 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC71770FF02F6EAA35AEA620FCEEA73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A690F745A54111E0BB612A6A338253E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A1782AC0C5BE794C69BD84B1A7A432 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6472D8170E2CE5B479F0C9C153DDF90 /* AHAutoLayout_Swift.framework */,
+				CF3C37C2F2C6D5CD6FC1553605F382AE /* Pods_AHAlertView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F43D00BB0E165660F54555F3133950C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA0AAD720078414028744DBC445471D5 /* AHAutoLayout-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4F43D00BB0E165660F54555F3133950C /* Pods */,
+				19A1782AC0C5BE794C69BD84B1A7A432 /* Products */,
+				CF5C017A3870C764A6A7A05BEAFE9297 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A233F1AAF1A8CCD56CA56EA985A46A5 /* Pods-AHAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				8803EE076DD44A1EB857734B59BF4B96 /* Info.plist */,
+				81701C5ACE0D0426D4842FE613032C44 /* Pods-AHAlertView.modulemap */,
+				168E7C795087B286A88CD87F879A6D44 /* Pods-AHAlertView-acknowledgements.markdown */,
+				725C0002F048F9BB9F832EDFF560EC42 /* Pods-AHAlertView-acknowledgements.plist */,
+				40454FE0289052955F2E3FA03EE96926 /* Pods-AHAlertView-dummy.m */,
+				3ADB963DE8ABC607863A45AEEDDB3000 /* Pods-AHAlertView-frameworks.sh */,
+				DF57D3313E066EB53DF038B4775B041D /* Pods-AHAlertView-resources.sh */,
+				BE49CF2D18B692A8CC51613C352AEF31 /* Pods-AHAlertView-umbrella.h */,
+				94563236729BCDFC4CF6CFB138AE17B3 /* Pods-AHAlertView.debug.xcconfig */,
+				F6423681D8AEF730221F662E35E4ACC6 /* Pods-AHAlertView.release.xcconfig */,
+			);
+			name = "Pods-AHAlertView";
+			path = "Target Support Files/Pods-AHAlertView";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF5C017A3870C764A6A7A05BEAFE9297 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A233F1AAF1A8CCD56CA56EA985A46A5 /* Pods-AHAlertView */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA0AAD720078414028744DBC445471D5 /* AHAutoLayout-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EF16210355D41C8DBEE5AEB9D6A0676C /* AHAutoLayoutDSL-Swift.swift */,
+				F9E96DAA24939E0F33EAFC9ECDEAF097 /* Support Files */,
+			);
+			name = "AHAutoLayout-Swift";
+			path = "AHAutoLayout-Swift";
+			sourceTree = "<group>";
+		};
+		F9E96DAA24939E0F33EAFC9ECDEAF097 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2EF1F1D1109B9FCC196A5F23682F647 /* AHAutoLayout-Swift.modulemap */,
+				64CD28EAF52349FFB42DAACC595C1EE3 /* AHAutoLayout-Swift.xcconfig */,
+				E006F9805DE74A6F9E6327ADD31625EA /* AHAutoLayout-Swift-dummy.m */,
+				2677B8B26C7EA58A74BCF596CBE8638E /* AHAutoLayout-Swift-prefix.pch */,
+				4C0558B9847B056B44DFB77516DC472E /* AHAutoLayout-Swift-umbrella.h */,
+				D328BFA984CD4C8F78243BE0848AA083 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AHAutoLayout-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BEF5F5AA413667E48F50D0248B4F884C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1748AB72B447DD496C06BFA6B21802E7 /* AHAutoLayout-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6E74D76284743F22B815D2604ADFBD6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108D3EF2494ACCE377B6F5A24353984C /* Pods-AHAlertView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49AFB6C2233735F3E72131CA2AAF952C /* AHAutoLayout-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76042207AE87B91E5951FA3492F8D404 /* Build configuration list for PBXNativeTarget "AHAutoLayout-Swift" */;
+			buildPhases = (
+				F006DD91F2787F2A47039D400091D390 /* Sources */,
+				BAC71770FF02F6EAA35AEA620FCEEA73 /* Frameworks */,
+				BEF5F5AA413667E48F50D0248B4F884C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AHAutoLayout-Swift";
+			productName = "AHAutoLayout-Swift";
+			productReference = B6472D8170E2CE5B479F0C9C153DDF90 /* AHAutoLayout_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D87D169290C889613A4BDDDED6E177C7 /* Pods-AHAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBA5CB3930A9053676DE9317BDE7316C /* Build configuration list for PBXNativeTarget "Pods-AHAlertView" */;
+			buildPhases = (
+				78543D617D86ED32107AC3E1A73DB66F /* Sources */,
+				8FC66CB4D9A77C95C85F0BF9785D3E51 /* Frameworks */,
+				F6E74D76284743F22B815D2604ADFBD6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616539443574A9F890F1D963508F8D6A /* PBXTargetDependency */,
+			);
+			name = "Pods-AHAlertView";
+			productName = "Pods-AHAlertView";
+			productReference = CF3C37C2F2C6D5CD6FC1553605F382AE /* Pods_AHAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 19A1782AC0C5BE794C69BD84B1A7A432 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49AFB6C2233735F3E72131CA2AAF952C /* AHAutoLayout-Swift */,
+				D87D169290C889613A4BDDDED6E177C7 /* Pods-AHAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78543D617D86ED32107AC3E1A73DB66F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E16553EACF67EC4826FA37FF09273AB7 /* Pods-AHAlertView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F006DD91F2787F2A47039D400091D390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88040DFFEFE535B52A44F5652D503D42 /* AHAutoLayout-Swift-dummy.m in Sources */,
+				B2CE53A934F1C3911F51500067AFF79E /* AHAutoLayoutDSL-Swift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		616539443574A9F890F1D963508F8D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AHAutoLayout-Swift";
+			target = 49AFB6C2233735F3E72131CA2AAF952C /* AHAutoLayout-Swift */;
+			targetProxy = E70E4360AA4E50AED0E48DEDEF000C5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		04E92C9318F3579E551B3EAC81821535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94563236729BCDFC4CF6CFB138AE17B3 /* Pods-AHAlertView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHAlertView/Pods-AHAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F489ECE7D19800FC9E2646041EAC5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CD28EAF52349FFB42DAACC595C1EE3 /* AHAutoLayout-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHAutoLayout-Swift/AHAutoLayout-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHAutoLayout-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHAutoLayout-Swift/AHAutoLayout-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AHAutoLayout_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC2F2837008312F7DBA17D2CA1D65532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CD28EAF52349FFB42DAACC595C1EE3 /* AHAutoLayout-Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHAutoLayout-Swift/AHAutoLayout-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHAutoLayout-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHAutoLayout-Swift/AHAutoLayout-Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AHAutoLayout_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB79AB4A3712A257A7B9B400BDD696F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6423681D8AEF730221F662E35E4ACC6 /* Pods-AHAlertView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHAlertView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHAlertView/Pods-AHAlertView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76042207AE87B91E5951FA3492F8D404 /* Build configuration list for PBXNativeTarget "AHAutoLayout-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F489ECE7D19800FC9E2646041EAC5D7 /* Debug */,
+				DC2F2837008312F7DBA17D2CA1D65532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBA5CB3930A9053676DE9317BDE7316C /* Build configuration list for PBXNativeTarget "Pods-AHAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E92C9318F3579E551B3EAC81821535 /* Debug */,
+				FB79AB4A3712A257A7B9B400BDD696F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
